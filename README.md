@@ -1,4 +1,4 @@
-#  balena-iot-gate-imx8plus repository
+#  balena-iotdin-imx8p repository
 
 ## Clone/Initialize the repository
 
@@ -60,51 +60,4 @@ modifying `local.conf`.
 
 ## Provisioning
 
-Provisioning tools for flashing balenaOS on Compulab IOT-GATE-iMX8 devices can be found [here](https://github.com/balena-os/iot-gate-imx8plus-flashtools.git)
-
-## Contributing
-
-### Issues
-
-For issues we use an aggregated github repository available [here](https://github.com/balena-os/balena-os/issues). When you create issue make sure you select the right labels.
-
-### Pull requests
-
-To contribute send github pull requests targeting this repository.
-
-Please refer to: [Yocto Contribution Guidelines](https://wiki.yoctoproject.org/wiki/Contribution_Guidelines#General_Information) and try to use the commit log format as stated there. Example:
-```
-<component>: Short description
-
-I'm going to explain here what my commit does in a way that history
-would be useful.
-
-Changelog-entry: User facing description of the issue
-Signed-off-by: Joe Developer <joe.developer@example.com>
-```
-
-The header of each commit must not exceed 72 characters in length and must be in 1 line only.
-
-The header and the subject of each commit must be separated by an empty line.
-
-The subject of each commit must not exceed 72 characters per line and can be wrapped to several lines.
-
-The subject and the footer of each commit must be separated by an empty line.
-
-Every pull request must contain at least one commit annotated with the `Changelog-entry` footer. The messages contained in these footers will be used to automatically fill the changelog on every new version.
-
-Also, every update to `meta-balena` should be separated into its own commit, if the body of that commit contains the following line `Updated meta-balena from X to Y` the generated changelog will include a button to show all the updates in `meta-balena` from the version after `X` to `Y`.
-
-An example of a valid commit updating `meta-balena` is:
-
-```
-layers/meta-balena: Update to v2.29.0
-
-Update meta-balena from 2.28.0 to 2.29.0
-
-Changelog-entry: Update the meta-balena submodule from v2.28.0 to v2.29.0
-```
-
-Make sure you mention the issue addressed by a PR. See:
-* https://help.github.com/articles/autolinked-references-and-urls/#issues-and-pull-requests
-* https://help.github.com/articles/closing-issues-via-commit-messages/#closing-an-issue-in-a-different-repository
+Provisioning tools for flashing balenaOS on Compulab IOTDIN-IMX8P devices can be found [here](https://github.com/balena-os/iotdin-imx8p-flashtools.git)
