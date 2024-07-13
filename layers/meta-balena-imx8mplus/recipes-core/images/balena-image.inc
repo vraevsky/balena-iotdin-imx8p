@@ -1,9 +1,7 @@
 IMAGE_FSTYPES:append = " balenaos-img"
 
-dram_conf = "${@bb.utils.contains('DRAM_CONF', 'd2d4', 'd2d4', 'd1d8', d)}"
-
 BALENA_BOOT_PARTITION_FILES:append = " \
-    imx-boot_${MACHINE}_${dram_conf}:/imx-boot-${MACHINE}-sd.bin-flash_evk \
+    imx-boot_${MACHINE}_${DRAM_CONF}:/imx-boot-${MACHINE}-sd.bin-flash_evk \
 "
 
 IMAGE_INSTALL:append = " \
