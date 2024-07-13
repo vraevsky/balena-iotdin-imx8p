@@ -16,7 +16,7 @@ index 1faaf4237e..071a9b53c5 100644
  	"autoload=off\0" \
  	"scriptaddr=0x43500000\0" \
  	"kernel_addr_r=" __stringify(CONFIG_SYS_LOAD_ADDR) "\0" \
-+	"resin_kernel_load_addr=" __stringify(CONFIG_LOADADDR) "\0" \
++	"resin_kernel_load_addr=" __stringify(CONFIG_SYS_LOAD_ADDR) "\0" \
  	"bsp_script=boot.scr\0" \
  	"image=Image.gz\0" \
  	"splashimage=0x50000000\0" \
