@@ -16,6 +16,7 @@ IMAGE_INSTALL:append = " \
     mp-verification-tool \
     libgpiod \
     libgpiod-tools \
+    iotd-imx8p-config \
     "
 IMAGE_INSTALL:remove = "kernel-image"
 IMAGE_INSTALL:remove = "packagegroup-fsl-optee-imx"
