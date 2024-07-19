@@ -1,4 +1,6 @@
-## Clone / Initialize this repository
+#  balena-iotdin-imx8p repository
+
+## Clone/Initialize the repository
 
 There are two ways of initializing this repository:
 * Clone this repository with "git clone --recursive".
@@ -56,34 +58,6 @@ up serial console support for example) and build prerequisites. Build flags can
 be set by using the build scripts (barys or balena-build) or by manually
 modifying `local.conf`.
 
-## Contributing
+## Provisioning
 
-### Issues
-
-See [Issues](../../issues) section
-
-### Pull requests
-
-To contribute send github pull requests targeting this repository.
-
-Please refer to: [Yocto Contribution Guidelines](https://wiki.yoctoproject.org/wiki/Contribution_Guidelines#General_Information) and try to use the commit log format as stated there. Example:
-```
-
-<component>: Short description
-
-I'm going to explain here what my commit does in a way that history
-would be useful.
-
-Changelog-entry: User facing description of the issue
-Signed-off-by: Joe Developer <joe.developer@example.com>
-```
-
-The header and the subject of each commit must be separated by an empty line.
-
-The subject and the footer of each commit must be separated by an empty line.
-
-Every pull request must contain at least one commit annotated with the `Changelog-entry` footer. The messages contained in these footers will be used to automatically fill the changelog on every new version.
-
-If your PR fixes an open issue, make sure you mention the issue addressed by the PR. See:
-* https://help.github.com/articles/autolinked-references-and-urls/#issues-and-pull-requests
-* https://help.github.com/articles/closing-issues-via-commit-messages/#closing-an-issue-in-a-different-repository
+Provisioning tools for flashing balenaOS on Compulab IOTDIN-IMX8P devices can be found [here](https://github.com/balena-os/iotdin-imx8p-flashtools.git)
