@@ -20,7 +20,7 @@
 	branch = kirkstone
 [submodule "layers/meta-openembedded"]
 	path = layers/meta-openembedded
-	url = https://github.com/openembedded/meta-openembedded/
+	url = https://github.com/openembedded/meta-openembedded
 	branch = kirkstone-next
 [submodule "layers/meta-compulab-bsp"]
 	path = layers/meta-compulab-bsp
@@ -28,7 +28,7 @@
 	branch = honister
 [submodule "layers/meta-freescale"]
 	path = layers/meta-freescale
-	url = https://github.com/Freescale/meta-freescale/
+	url = https://github.com/Freescale/meta-freescale
 	branch = kirkstone
 [submodule "layers/meta-imx"]
 	path = layers/meta-imx
