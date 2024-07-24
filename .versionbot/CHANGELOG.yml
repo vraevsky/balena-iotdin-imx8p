@@ -1,0 +1,17 @@
+- commits:
+    - subject: Add Linux kernel v6.6.3 configs
+      hash: 92acf01e477cbef078b733f2eea50b09a79693a1
+      body: |
+        Update kernel configs required by BALENA_CONFIGS list.
+        BALENA_CONFIGS contains v5.y kernel configs that can't
+        be applied on v6.y kernel.
+      footer:
+        Changelog-entry: Add Linux kernel v6.6.3 configs
+        changelog-entry: Add Linux kernel v6.6.3 configs
+        Signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+        signed-off-by: Valentin Raevsky <valentin@compulab.co.il>
+      author: Valentin Raevsky
+      nested: []
+  version: 6.0.5
+  title: ""
+  date: 2024-07-24T14:49:07.856Z
