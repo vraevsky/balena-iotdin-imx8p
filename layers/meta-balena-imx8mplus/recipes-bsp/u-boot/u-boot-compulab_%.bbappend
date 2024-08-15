@@ -2,7 +2,7 @@ FILESEXTRAPATHS:prepend := "${THISDIR}/patches:${THISDIR}/imx8mp:"
 
 UBOOT_KCONFIG_SUPPORT = "1"
 inherit resin-u-boot
-DEPENDS = "bison-native"
+DEPENDS = "bison-native gnutls-native"
 
 BALENA_DEVICE_FDT_ADDR_VAR ?= "fdt_addr_r"
 
