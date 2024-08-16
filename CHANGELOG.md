@@ -2,6 +2,11 @@
 
 # v6.0.5
 
+# v6.0.10+rev2
+## (2024-08-16)
+
+* conf/layer: remove swig host dependency [Alexandru Costache]
+
 # v6.0.10+rev1
 ## (2024-08-15)
 

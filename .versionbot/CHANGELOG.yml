@@ -1,4 +1,18 @@
 - commits:
+    - subject: "conf/layer: remove swig host dependency"
+      hash: a7ea2953ab0881e09aa275c1ad23eca006333f9a
+      body: ""
+      footer:
+        Changelog-entry: "conf/layer: remove swig host dependency"
+        changelog-entry: "conf/layer: remove swig host dependency"
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+      nested: []
+  version: 6.0.10+rev2
+  title: ""
+  date: 2024-08-16T09:06:18.589Z
+- commits:
     - subject: Update balena-yocto-scripts to 87762ec55616db7a361d41ae0fb115f8a9d4e034
       hash: ea0162589ff56f426d6d567b37839b745f7163fc
       body: Update balena-yocto-scripts
