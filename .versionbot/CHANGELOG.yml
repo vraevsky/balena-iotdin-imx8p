@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/poky to 7db7a86fbc28eb8b7616010ee4542664ee65ef4f
+      hash: 834716e1fb6e4961894e9c74e88401101ee24981
+      body: Update layers/poky
+      footer:
+        Changelog-entry: Update layers/poky to 7db7a86fbc28eb8b7616010ee4542664ee65ef4f
+        changelog-entry: Update layers/poky to 7db7a86fbc28eb8b7616010ee4542664ee65ef4f
+      author: balena-renovate[bot]
+      nested: []
+  version: 6.0.10+rev3
+  title: ""
+  date: 2024-08-17T07:45:45.144Z
+- commits:
     - subject: "conf/layer: remove swig host dependency"
       hash: a7ea2953ab0881e09aa275c1ad23eca006333f9a
       body: ""
