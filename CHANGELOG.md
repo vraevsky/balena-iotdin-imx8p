@@ -2,6 +2,21 @@
 
 # v6.0.5
 
+# v6.0.12+rev3
+## (2024-08-27)
+
+
+<details>
+<summary> Update balena-yocto-scripts to a3dfa265480986251193a989b1077939f38c4dc3 [balena-renovate[bot]] </summary>
+
+> ## balena-yocto-scripts-1.25.26
+> ### (2024-08-27)
+> 
+> * Fix if condition for checking merge commit test results [rcooke-warwick]
+> 
+
+</details>
+
 # v6.0.12+rev2
 ## (2024-08-24)
 
