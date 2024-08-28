@@ -2,6 +2,21 @@
 
 # v6.0.5
 
+# v6.0.13
+## (2024-08-28)
+
+
+<details>
+<summary> Update layers/meta-balena to f95917dab4a9e2f6b7e6830c22ba26d461fac816 [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.0.13
+> ### (2024-08-26)
+> 
+> * classes/image_types_balena: Add support for device specific boot filesystem options [Alexandru Costache]
+> 
+
+</details>
+
 # v6.0.12+rev3
 ## (2024-08-27)
 
