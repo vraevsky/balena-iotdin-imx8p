@@ -1,4 +1,47 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 5c8805dcd0013ca3aab6ec82e094595ad8f6780b
+      hash: 3447d0eec049ce521cb343f32b40788c7ee20660
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 5c8805dcd0013ca3aab6ec82e094595ad8f6780b
+        changelog-entry: Update balena-yocto-scripts to 5c8805dcd0013ca3aab6ec82e094595ad8f6780b
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: checkout private contracts for test job
+              hash: d49882c54127d8b805191ff313a3a00d1c163590
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: balena-yocto-scripts-1.25.28
+          title: ""
+          date: 2024-08-30T14:24:42.877Z
+        - commits:
+            - subject: use apt-get to install s4cmd instead of pip
+              hash: 938730ae60d60574f9abf757c1c4efcc4e526a2f
+              body: >
+                using pip to install python packages also installable by debian
+                is not recommended, and leads to errors while trying to do so.
+                Switch to using apt-get to install s4cmd to address this
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Ryan Cooke <ryan@balena.io>
+                signed-off-by: Ryan Cooke <ryan@balena.io>
+              author: rcooke-warwick
+              nested: []
+          version: balena-yocto-scripts-1.25.27
+          title: ""
+          date: 2024-08-29T13:53:51.392Z
+  version: 6.0.19+rev1
+  title: ""
+  date: 2024-08-31T18:58:33.010Z
+- commits:
     - subject: Update layers/meta-balena to 782207a721f505e9e414c7a79259c407e2d6c445
       hash: 3eb11da34a1d82000f6387751eeedf3f108186e6
       body: Update layers/meta-balena
