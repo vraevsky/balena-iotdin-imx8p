@@ -1,4 +1,36 @@
 - commits:
+    - subject: Update balena-yocto-scripts to cc1d2e4eec194181974a018588d154c41d7cd040
+      hash: 4cc9b676c95bdd6aad5217e2956e796e8e5ea434
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to cc1d2e4eec194181974a018588d154c41d7cd040
+        changelog-entry: Update balena-yocto-scripts to cc1d2e4eec194181974a018588d154c41d7cd040
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: Restrict runners via yocto label, not 16cpu
+              hash: 5ec368545ccc173631b7b82f68f7619b1dbfe5e5
+              body: >
+                We currently have many `8cpu` runners available that are
+
+                migrating from Jenkins that we should allow to use for yocto
+                builds.
+
+
+                As long as some runners don't have the `yocto` tag so we don't
+                bottleneck the runner queue for other orgs.
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Kyle Harding
+              nested: []
+          version: balena-yocto-scripts-1.25.29
+          title: ""
+          date: 2024-08-31T23:20:44.235Z
+  version: 6.0.19+rev2
+  title: ""
+  date: 2024-09-01T01:59:25.308Z
+- commits:
     - subject: Update balena-yocto-scripts to 5c8805dcd0013ca3aab6ec82e094595ad8f6780b
       hash: 3447d0eec049ce521cb343f32b40788c7ee20660
       body: Update balena-yocto-scripts
