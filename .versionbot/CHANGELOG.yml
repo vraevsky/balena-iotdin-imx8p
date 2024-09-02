@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update layers/meta-bsp-imx8mp to 281a0ac36f7e8c51c2229dbc13f3bf32e7a25ca9
+      hash: 8b1b53f8cb96ae373e59aa7764ea4e90892cedba
+      body: Update layers/meta-bsp-imx8mp
+      footer:
+        Changelog-entry: Update layers/meta-bsp-imx8mp to
+          281a0ac36f7e8c51c2229dbc13f3bf32e7a25ca9
+        changelog-entry: Update layers/meta-bsp-imx8mp to
+          281a0ac36f7e8c51c2229dbc13f3bf32e7a25ca9
+      author: balena-renovate[bot]
+      nested: []
+  version: 6.0.19+rev5
+  title: ""
+  date: 2024-09-02T13:27:16.779Z
+- commits:
     - subject: Update balena-yocto-scripts to 11f6becf05ead40e926a52022b9fca763b49eebe
       hash: 325cd58cb2a0e342e9b7147dac848a3a07f2f6e8
       body: Update balena-yocto-scripts
