@@ -2,6 +2,26 @@
 
 # v6.0.5
 
+# v6.0.21
+## (2024-09-02)
+
+
+<details>
+<summary> Update layers/meta-balena to 5310f76b1f409f6fc164ab3f307b381250ff8f5a [balena-renovate[bot]] </summary>
+
+> ## meta-balena-6.0.21
+> ### (2024-09-01)
+> 
+> * Update balena-os/balena-yocto-scripts action to v1.25.30 [balena-renovate[bot]]
+> 
+> ## meta-balena-6.0.20
+> ### (2024-09-01)
+> 
+> * tests: config: restore both network options to false [Kyle Harding]
+> 
+
+</details>
+
 # v6.0.19+rev5
 ## (2024-09-02)
 
